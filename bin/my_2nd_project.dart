@@ -162,33 +162,4 @@ int student2cgpa= 5;
 int rueslt= student1cgpa+student2cgpa;
 
 print(rueslt);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
