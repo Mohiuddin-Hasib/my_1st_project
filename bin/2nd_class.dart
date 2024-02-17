@@ -1,5 +1,8 @@
 void main (){
 
-  String jasttry='try to set github';
-print(jasttry);
+  var x=10;
+  var y= 3;
+ var r = x/y;
+
+  print(r);
 }
