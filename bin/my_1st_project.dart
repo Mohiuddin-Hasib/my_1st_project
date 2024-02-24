@@ -107,9 +107,9 @@ print('may 2025');
 
   List<String> best_winger=['salah','vini jr','chiesa','saka','grilish','rodrigo','khavara'];
 
-   var ruselt=best_winger.runtimeType;
 
-print(ruselt);
+
+print(best_winger.runtimeType);
 
  Map<int,String> student= { 1:'hasib',2:'rakib'};
 
