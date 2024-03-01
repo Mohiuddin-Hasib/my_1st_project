@@ -1,5 +1,5 @@
 void main(){
-/*  for ( int service =0; service <=50;service +=1 ){
+  for ( int service =0; service <=50;service +=1 ){
     if ( service == 30){
       break;
     }if (service==23 ){
@@ -14,7 +14,7 @@ for (int i=0; i< studentList.length; i++){
 }
 for (String name in studentList) {
   print(name);
-}*/
+}
 Map < int,String> student_list= {
   1 : 'tonni',
   2: 'hasib',
@@ -28,5 +28,10 @@ for ( int i=0; i< student_list.length; i++){
     continue;
   }
   print('student serial $i - ${student_list[i]}');
+}
+int i= 0;
+while (i<=10){
+  print('value is $i');
+  i=i+1;
 }
 }
