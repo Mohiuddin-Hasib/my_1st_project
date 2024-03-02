@@ -11,13 +11,20 @@ class Student {
 void vacation (){
     print('$_frist_name is on vacation');
 }
-void changegender(String gander){
+void set changegender(String gander){
     if( gander == 'male' || gander== 'female'){
       _gander= gander;
     }
 }
- String getgander(){
+ String get getgander {
     return _gander;
  }
-
+void set setage(int newAge){
+    if(newAge>= 12 && newAge<=80){
+      _age= newAge;
+    }
+}
+int get getAge{
+    return _age;
+}
 }

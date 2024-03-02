@@ -9,6 +9,8 @@ void main (){
   Student student2= Student('Raihan', 'khan', 'six', 13, 'male');
   print(student2);
   print(student2.getfullname());
-  student2.changegender('female');
-  print(student2.getgander());
+  student2.changegender= 'male';
+  print(student2.getgander);
+  student1.setage= 24;
+  print(student1.getAge);
 }
